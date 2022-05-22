@@ -1,50 +1,44 @@
 const quotes = [
   {
-    quote: "I never dreamed about success, I worked for it",
-    author: "Estee Lauder",
+    quote: "速度を上げるばかりが、人生ではない",
+    author: "日本",
   },
   {
-    quote: "Do not try to be original, just try to be good.",
-    author: "Paul Rand",
+    quote: "夢を見るから、人生は輝く",
+    author: "東京",
   },
   {
-    quote: "Do not be afraid to give up the good to go for the great",
-    author: "John D. Rockefeller",
+    quote: "急いそがば回まわれ",
+    author: "北海道",
   },
   {
-    quote:
-      "If you cannot fly then run. If you cannot run, then walk. And if you cannot walk, then crawl, but whatever you do, you have to keep moving forward.",
-    author: "Martin Luther King Jr.",
+    quote: "時は人を待たず",
+    author: "福岡",
   },
   {
-    quote:
-      "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
-    author: "Thomas Edison",
+    quote: "時は 金なり",
+    author: "大阪",
   },
   {
-    quote:
-      "The fastest way to change yourself is to hang out with people who are already the way you want to be",
-    author: "REid Hoffman",
+    quote: "負けたら終わりじゃなくて. やめたら終わりなんだよね.",
+    author: "名古屋",
   },
   {
-    quote:
-      "Money is like gasoline during a road trip. You do not want to run out of gas on your trip, but you are not doing a tour of gas stations",
-    author: "Tim O Reilly",
+    quote: "自分に打ち勝つことは、勝利のうちで最も偉大な勝利である.",
+    author: "京都",
   },
   {
-    quote:
-      "Some people dream of success, while other people get up every morning and make it happen",
-    author: "Wayne Huizenga",
+    quote: "海を泳いでる最中には 海の広さはわからんよ",
+    author: "静岡",
   },
   {
-    quote:
-      "The only thing worse than starting something and falling.. is not starting something",
-    author: "SEth Godin",
+    quote: "最高の選択は即ち君の選択だ.",
+    author: "宮崎",
   },
   {
     quote:
-      "If you really want to do something, you will find a way. If you do not, you will find an excuse.",
-    author: "Jim Rohn",
+      "世の中がどんなに変化しても、人生は家族で始まり、家族で終わることに変わりはない.",
+    author: "埼玉",
   },
 ];
 

@@ -8,6 +8,10 @@ ul {
   list-style: none;
 }
 
+button {
+  border: 0;
+  background-color: transparent;
+}
 input:focus {
   outline: none;
 }
@@ -26,11 +30,20 @@ input:focus {
   z-index: 1;
 }
 
+#greeting {
+  margin-bottom: 0;
+}
+
+#greeting2 {
+  margin: 0 0 50px;
+}
+
 #login-form {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 #login-form input[type="text"] {
@@ -56,7 +69,9 @@ input[type="text"]::placeholder {
 }
 h2#clock {
   text-align: center;
-  color: white;
+  color: wheat;
+  font-size: 120px;
+  margin-bottom: 10px;
 }
 
 img {
@@ -67,12 +82,43 @@ img {
   /* visibility: hidden; */
 }
 
+.todo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 800px;
+  height: 300px;
+  opacity: 0.7;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+}
+#todo-list span {
+  display: inline-block;
+  height: 23px;
+  color: white;
+  line-height: 23px;
+}
+
+#todo-list button {
+  color: tomato;
+  border: 1px solid tomato;
+  font-weight: 700;
+  font-size: 13px;
+  margin-left: 13px;
+}
+
 #todo-form input {
   border: 0;
-  border-bottom: 1px solid black;
-  width: 200px;
-  padding: 10px;
+  border-bottom: 1px solid white;
+  width: 500px;
+  padding: 10px 100px;
+  box-sizing: border-box;
   background-color: transparent;
+  color: white;
+  caret-color: white;
 }
 
 #quote {
@@ -80,13 +126,22 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  block-size: 600;
 }
 #quote span:first-child {
-  font-size: 20px;
-  color: white;
+  font-size: 30px;
+  color: aqua;
 }
 
 #quote span:last-child {
   margin-top: 10px;
-  color: white;
+  font-size: 20px;
+  color: aqua;
+}
+
+#weather {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: azure;
 }
